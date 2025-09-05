@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Njioda/CypressTestCode.git'
+                git 'https://github.com/Njioda/Zypress_1.git'
             }
         }
         
