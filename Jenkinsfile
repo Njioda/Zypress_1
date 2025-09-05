@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-    //nodejs "24.3.0"   //matches the name configured in Jenkins
-    nodejs "24.7.0"  // matches the name configured in Jenkins
+    nodejs "24.3.0"   //matches the name configured in Jenkins
+    //nodejs "24.7.0"  // matches the name configured in Jenkins
   } 
 
     stages {
